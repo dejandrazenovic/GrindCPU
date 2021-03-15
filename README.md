@@ -3,7 +3,7 @@ A microcontroller-controlled electric conical burr grinder (for coffee).
 
 ## Abstract
 
-The Baratza Virtuoso has been my trusty coffee grinder for a few years now, but has only a wind-up timer and pulse button. I have replaced the pulse button with an Arduino + OLED display to enhance its features. A 5V relay replaced the pulse button in the internals.
+The Baratza Virtuoso has been my trusty coffee grinder for a few years now, but only has a wind-up timer and pulse button for controls. I have replaced the pulse button with an Arduino + OLED display to enhance its features. A 5V relay replaced the pulse button in the internals.
 
 ## Features
 
@@ -22,4 +22,4 @@ Currently, the grinder has the following modes:
   * Internal 12v power supply for the Arduino
   * Autopurge to catch "popcorning" beans?
 * 2.0
-  * Hack into the speed control for the motor using a digital potentiometer.
+  * Hack into the internal speed adjustment for the motor using a digital potentiometer
