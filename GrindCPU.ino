@@ -29,7 +29,6 @@ bool active = true;
 Adafruit_SSD1306 display(OLED_WIDTH, OLED_HEIGHT);
 
 void setup() {
-  
   pinMode(B0_PIN, INPUT_PULLUP);
   pinMode(B1_PIN, INPUT_PULLUP);
   pinMode(S_PIN, OUTPUT);
